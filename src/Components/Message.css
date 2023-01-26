@@ -1,11 +1,27 @@
-#message{
-    display: flex   ;
-    max-width: 400px;
-    overflow-wrap: break-word;
-}
+
 #message .text{
     width: 100%;
-    padding: 7px;
-    margin: 10px 0 0;
-
+    height: 100%;
+}
+#message{
+    display: flex;
+    padding: 4px;
+}
+#name{
+    padding: 4px 0;
+}
+.text{
+    padding: 4px;
+    font-size: 14px;
+    width: 100%;
+}
+.name-text{
+    display: flex;
+    max-width: 250px;
+    overflow-wrap: break-word;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
